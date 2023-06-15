@@ -1,0 +1,306 @@
+@font-face {
+    font-family: Romanesco;
+    src: url(../Fonts/Romanesco-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid red;*/
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A3A656;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+#navigation {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#login ul li img {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+#login ul li p {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+#banner img {
+    width: 100%;
+    display: block;
+}
+
+#bannerText {
+    position: absolute;
+    top: 270px;
+    left: 170px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+#bannerText h1 {
+    margin-bottom: 50px;
+    font-family: Romanesco;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+#reservationAndPromoSection {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F6F6;
+}
+
+#reservationAndPromoSection input {
+    border: #e3dada;
+    border-radius: 16px;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservationAndPromoSection span {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#reservationAndPromoSection span:first-child {
+    padding: 10px;
+}
+
+#reservationAndPromoSection input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+#cardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardSection article:nth-child(2) {
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+.card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.typeOfService {
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    color: white;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+.btnReservation h2 {
+    float: left;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+.btnReservation button {
+    float: right;
+    margin: 8px;
+    border-radius: 35px;
+    background-color: #A3A656;
+    padding: 10px 35px;
+    margin: 10px 0;
+    text-align: center;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.card p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+#membershipSection {
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F6F6;
+    position: relative;
+}
+
+#membershipSection>h2 {
+    text-align: center;
+    position: absolute;
+    top: 40px;
+}
+
+#membershipSection-Articles {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#membershipSection-Articles article {
+    text-align: center;
+}
+
+#membershipSection-Articles article:nth-child(2) {
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+.btnTermsAndConditions {
+    margin: 20px 0;
+    border-radius: 35px;
+    background-color: #A3A656;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.listOfMembershipPerks {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 65px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.membership {
+    width: 255px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.circleBorder {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background-color: #384001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circleBorder::before {
+    content: "";
+    position: absolute;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.circleBorder img {
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}
+
+footer {
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384001;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    color: #A3A656;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+#aboutUS ul li {
+    padding: 25px;
+}
+
+.btnReservationText:hover {
+    background-color: #384001;
+}
+
+.btnTermsAndConditions:hover {
+    background-color: #384001;
+}
+
+nav ul li:hover {
+    color: #FFFF00;
+}
+
+footer ul li:hover {
+    color: #FFFF00;
+}
