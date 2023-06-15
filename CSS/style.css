@@ -169,6 +169,7 @@ nav ul li {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .card p {
@@ -202,6 +203,7 @@ nav ul li {
 
 #membershipSection-Articles article {
     text-align: center;
+    padding: 25px;
 }
 
 #membershipSection-Articles article:nth-child(2) {
@@ -218,6 +220,8 @@ nav ul li {
     font-size: 14px;
     color: white;
     text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .listOfMembershipPerks {
@@ -230,10 +234,19 @@ nav ul li {
     font-size: 14px;
 }
 
+.listOfMembershipPerks li {
+    padding-top: 7px;
+}
+
 .membership {
     width: 255px;
     text-align: center;
     border-radius: 0 0 8px 8px;
+}
+
+.membership div h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .circleBorder {
