@@ -1,1 +1,182 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio: Los continentes con CSS - Santiago Leon</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="navigation">
+                <ul>
+                    <li>PROMOCIONES</li>
+                    <li>FOTOS</li>
+                    <li>SERVICIOS</li>
+                    <li>MAPA</li>
+                    <li>CONTACTO</li>
+                </ul>
+            </div>
+            <div id="login">
+                <ul>
+                    <li>
+                        <img src="./imgs/user.png" alt="User generic">
+                        <p>Mi Cuenta</p>
+                    </li>
+                    <li>
+                        <p>ES</p>
+                        <span id="flagDropDown">
+                            <img src="./imgs/flag.png" alt="Spain's Flag">
+                            <img id="dropdownArrow" src="./imgs/arrow.png" alt="Drop-Down Arrow">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="banner">
+            <article id="bannerImage">
+                <img src="./imgs/main.png"
+                    alt="Linen wrap, with a wooden spoon and some green fern leaves on top of a marble table">
+                <div id="bannerText">
+                    <h1>SPA - Todos</h1>
+                    <h2>Regálate un momento de paz y <br>consiente a tu piel en el mejor lugar</h2>
+                </div>
+            </article>
+        </section>
+
+        <section id="reservationAndPromoSection">
+            <article id="reservationAndPromo">
+                <span>RESERVAR CITA:</span>
+                <input type="text" name="txtReservation">
+                <span>CÓDIGO PROMOCIONAL:</span>
+                <input type="text" name="txtPromo" placeholder="CODIGO">
+            </article>
+        </section>
+    </header>
+
+    <main>
+        <section id="cardSection">
+            <article class="card" id="feetCard">
+                <h2 class="typeOfService">Masaje de pies</h2>
+                <div class="massageImages">
+                    <img src="./imgs/pies.png" alt="Feet massage">
+                </div>
+                <p>Esta es una descripción de la opción en <br> cuestión .....</p>
+                <div class="btnReservation">
+                    <h2>$65</h2>
+                    <button class="btnReservationText">RESERVAR</button>
+                </div>
+            </article>
+
+            <article class="card" id="relaxCard">
+                <h2 class="typeOfService">Masaje relajante</h2>
+                <div class="massageImages">
+                    <img src="./imgs/relajante.png" alt="Woman having a face massage">
+                </div>
+                <p>Esta es una descripción de la opción en <br> cuestión .....</p>
+                <div class="btnReservation">
+                    <h2>$60</h2>
+                    <button class="btnReservationText">RESERVAR</button>
+                </div>
+            </article>
+
+            <article class="card" id="bambooCard">
+                <h2 class="typeOfService">Masaje con bambú</h2>
+                <div class="massageImages">
+                    <img src="./imgs/bambu.png" alt="Feet massage">
+                </div>
+                <p>Esta es una descripción de la opción en <br> cuestión .....</p>
+                <div class="btnReservation">
+                    <h2>$58</h2>
+                    <button class="btnReservationText">RESERVAR</button>
+                </div>
+            </article>
+        </section>
+
+        <section id="membershipSection">
+            <h2 id="textTitleMembership">Haste socio y prueba nuestros beneficios</h2>
+
+            <section id="membershipSection-Articles">
+                <article class="membership" id="goldMembership">
+                    <div>
+                        <div class="circleBorder">
+                            <img src="./imgs/gold.png" alt="Greenish crown">
+                        </div>
+                        <h2>GOLD</h2>
+                        <div class="btnTermsAndConditions">
+                            VER CONDICIONES
+                        </div>
+                        <ul class="listOfMembershipPerks">
+                            <li>Gimnasio</li>
+                            <li>Piscina</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="membership" id="premiumMembership">
+                    <div>
+                        <div class="circleBorder">
+                            <img src="./imgs/premium.png" alt="Yellowish crown">
+                        </div>
+                        <h2>PREMIUM</h2>
+                        <div class="btnTermsAndConditions">
+                            VER CONDICIONES
+                        </div>
+                        <ul class="listOfMembershipPerks">
+                            <li>Gimnasio</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="membership" id="plateMembership">
+                    <div>
+                        <div class="circleBorder">
+                            <img src="./imgs/plate.png" alt="Whiteish orange crown">
+                        </div>
+                        <h2>PLATE</h2>
+                        <div class="btnTermsAndConditions">
+                            VER CONDICIONES
+                        </div>
+                        <ul class="listOfMembershipPerks">
+                            <li>Tratamientos faciales</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div id="aboutUS">
+            <ul>
+                <li>POLITICAS DE COOKIES</li>
+                <li>AVISO LEGAL</li>
+                <li>PROTECCIÓN DE DATOS</li>
+                <li>MAPA DEL SITIO</li>
+            </ul>
+        </div>
+        <div id="socialNetworks">
+            <ul>
+                <li>
+                    <p>SÍGUENOS EN</p>
+                </li>
+                <li>
+                    <img src="imgs/rs_facebook.png" alt="Icon Facebook">
+                </li>
+                <li>
+                    <img src="imgs/rs_twiter.png" alt="Icon Twitter">
+                </li>
+                <li>
+                    <img src="imgs/rs_youtube.png" alt="Icon Youtube">
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
